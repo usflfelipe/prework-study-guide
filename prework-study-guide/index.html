@@ -45,17 +45,17 @@
       <section class="card" id="git-section">
         <h2>GIT</h2>
         <ul>
-          <li>git config --global user.name "JohnDoe": Set your Git username.</li>
-          <li>git config --global user.name: Shows your username.</li>
-          <li>git config --global user.email "JohnDoe@gmail.com": Set your Git e-mail.</li>
-          <li>git remote -v: To verify if has connection between the local version of the repo and remote repo.</li>
-          <li>git status: Checks what branch we are currently on.</li>
-          <li>git checkout -b branch-name: Creates a new branch and switches to it.</li>
-          <li>git add -A: To commit all files in the working branch.</li>
-          <li>git commit -m "commit title example": To commit the changes to the repository <br>
+          <li><b>git config --global user.name "JohnDoe":</b> Set your Git username.</li>
+          <li><b>git config --global user.name:</b> Shows your username.</li>
+          <li><b>git config --global user.email "JohnDoe@gmail.com":</b> Set your Git e-mail.</li>
+          <li><b>git remote -v:</b> To verify if has connection between the local version of the repo and remote repo.</li>
+          <li><b>git status:</b> Checks what branch we are currently on.</li>
+          <li><b>git checkout -b branch-name:</b> Creates a new branch and switches to it.</li>
+          <li><b>git add -A:</b> To commit all files in the working branch.</li>
+          <li><b>git commit -m "commit title example":</b> To commit the changes to the repository <br>
             (We use the -m flag to associate a message with our commit.)</li>
-          <li>git pull origin main: To pull in the base branch</li>
-          <li>git push origin branch-name: To push up all of the changes</li>
+          <li><b>git pull origin main:</b> To pull in the base branch</li>
+          <li><b>git push origin branch-name:</b> To push up all of the changes</li>
         </ul>
       </section>
 
@@ -63,6 +63,69 @@
         <h2>JavaScript</h2>
         <ul>
           <li>JS is an abbreviation for JavaScript</li>
+          <li>JavaScript is a high-level dynamic programming language that adds interactivity to your website. It was invented by Brendan Eich.</li>
+          <li>APIs is an abbreviation for Application Programming Interfaces</li>
+          <li>The script tag (< script src="scripts/main.js">< /script>) needs to be before the closing body tag</li>
+          <li>A semicolon at the end of a line indicates where a statement ends.</li>
+          <li>JavaScript is case sensitive.</li>
+          <li>Variables are containers that store values/data in our code. You start by declaring a variable with the `var` keyword, followed by the name you give to the variable.</li>
+          <li>After declaring a variable, you can give it a value: <br>
+            myVariable = "Bob"; or let myVariable = "Bob";</li>
+          <li>You retrieve the value by calling the variable name: <br>
+            myVariable;</li>
+          <li>After assigning a value to a variable, you can change it later in the code: <br>
+            let myVariable = "Bob"; <br>
+            myVariable = "Steve";</li>
+            <li><b>JS data types</b>: <br>
+              <br>
+              <b>-String</b> is a sequence of text known as a string. To signify that the value is a string, enclose it in single or double quote marks. <br>
+              let myVariable = 'Bob'; or <br>
+              let myVariable = "Bob"; <br>
+              <br>
+              <b>-Number</b>. Numbers don't have quotes around them.<br>
+              <br>
+              <b>-Boolean</b> is a True/False value. The words true and false are special keywords that don't need quote marks.<br>
+              <br>
+              <b>-Array</b> is a structure that allows you to store multiple values in a single reference.<br>
+              let myVariable = [1,'Bob','Steve',10];<br>
+              Refer to each member of the array like this:<br>
+              myVariable[0], myVariable[1], etc.<br>
+              <br>
+              <b>-Object</b> can be anything. Everything in JavaScript is an object and can be stored in a variable.<br>
+              let myVariable = document.querySelector('h1');<br>
+              All of the above examples too.</li>
+              <li>You can write comments in JavaScript just as you can in CSS:<br>
+                /*<br>
+                Everything in between is a comment.<br>
+                */<br>
+                If your comment contains no line breaks, it's an option to put it behind two slashes like this:<br>
+                // This is a comment</li>
+                <li>An <b>operator</b> is a mathematical symbol that produces a result based on two values (or variables).<br>
+                  <br>
+                  <b>-Addition (+):</b> Add two numbers together or combine two strings.<br>
+                  <br>
+                  <b>-Subtraction, Multiplication, Division (-, *, /):</b> These do what you'd expect them to do in basic math.<br>
+                  <br>
+                  <b>-Assignment (=):</b> Assigns a value to a variable. <br>
+                  <br>
+                  <b>-Strict equality (===):</b> This performs a test to see if two values are equal. It returns a true/false (Boolean) result.<br>
+                  let myVariable = 3;<br>
+                  myVariable === 4;<br>
+                  <br>
+                  <b>-Not, Does-not-equal (!, !==):</b> This returns the logically opposite value of what it precedes. It turns a true into a false, etc.. When it is used alongside the Equality operator, the negation operator tests whether two values are not equal.<br>
+                  For "Not", the basic expression is true, but the comparison returns false because we negate it:<br>
+                  let myVariable = 3;<br>
+                  !(myVariable === 3);<br>
+                  <br>
+                  "Does-not-equal" gives basically the same result with different syntax. Here we are testing "is myVariable NOT equal to 3". This returns false because myVariable IS equal to 3: <br>
+                  <br>
+                  let myVariable = 3;<br>
+                  myVariable !== 3;
+                </li>
+                <li>We can use the console.log method to output a message to the web console by adding an argument.</li>
+                <li><b>Control flow</b> is the order in which a computer executes code in a script. In JavaScript, code runs from the first statement at the top of the page, down to the last statement at the bottom of the page.</li>
+                <li>Control flow can be interrupted, however. We can use conditional statements and loops to control the order in which code is executed, or if it is even executed at all.</li>
+                <li>A value is considered falsy if it is one of the following values: 0, -0, On, "", null, undefined, NaN, or a Boolean data type with the value of false. All other values, including a Boolean with the value of true, are considered truthy.</li>
         </ul>
       </section>
     </main>
